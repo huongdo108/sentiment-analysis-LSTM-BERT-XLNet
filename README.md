@@ -20,10 +20,10 @@ LSTM can address the above mentioned Vanishing Gradient problem. LSTM has the ch
 
 A LSTM unit includes a cell, an input gate, an output gate and a forget gate. The cell remembers values over arbitrary time intervals while the gates regulate the information flow in and out of the cell. 
 
-<img src="https://github.com/huongdo108/sentiment-analysis/rnn.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/rnn.PNG" align="centre">
 Figure . RNN cell [24]
 
-<img src="LSTM.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/LSTM.PNG" align="centre">
 Figure . LSTM cell [24]
 
 ## BERT 
@@ -70,7 +70,7 @@ neural network, compared to the unidirectional language model OpenAI
 and the shallow bidirectional language model achieved by concatenation
 of two independent passes ELMo.
 
-<img src="bert_compare.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/bert_compare.PNG" align="centre">
 
 Figure . ’Differences in pre-training model architectures. BERT uses a bidirectional
 Transformer. OpenAI GPT uses a left-to-right Transformer. ELMo uses the
@@ -104,7 +104,7 @@ are either:
 
 * kept intact (10% of the time)
 
-<img src="Bert_architecture.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/Bert_architecture.PNG" align="centre">
 Figure . ’An illustrated BERT architecture in predicting masked word’ [1]
 
 ## XLNet
@@ -169,12 +169,12 @@ predicts only the masked (15% ) tokens simultaneously. Therefore, XLNet can avoi
 BERT [22]. The permutation does not permute the input sequence order,
 but the factorization order instead [22].
 
-<img src="XLNet_permutation.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/XLNet_permutation.PNG" align="centre">
 Figure . Illustration of the permutation language modelling objective for predicting x3 given the same input sequence x but with different factorization orders [22]
 
 The example below shows how XLNet and BERT capture the independence among predicted tokens [New] and [York] given the context [is,a,city].
 
-<img src="XLNet_dependency.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/XLNet_dependency.PNG" align="centre">
 Figure . XLNet captures more dependency pairs than BERT [3]
 
 **Two-stream attention mask** XLNet relies on the new state-of-the-art twostream attention mask and position encoding to achieve the permutation.
@@ -197,7 +197,7 @@ token which contains information from contextual words and the predicted token�
 stream attention is used as input to query stream attention and not the
 other way around [9].
 
-<img src="2streams-attention.PNG" align="centre">
+<img src="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/images/2streams-attention.PNG" align="centre">
 Figure . (a): Content stream attention, which is the same as the standard self-attention.
 (b): Query stream attention, which does not have access information about the
 content x. (c): Overview of the permutation language modelling training with
