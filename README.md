@@ -1,11 +1,20 @@
 # Sentiment Analysis with Bidirectional LSTM, BERT, and XLNet
 
-## Overview
+## Project Overview
 
 In this project, I implemented sentiment analysis on Movie Review Dataset by using three different deep learning architectures: Bidirectional LSTM, transfer learning with BERT and XLNet.
 
-Data can be download from <a href="https://ai.stanford.edu/~amaas/data/sentiment/">Large Movie Review Dataset</a>
+Data can be download from <a href="https://ai.stanford.edu/~amaas/data/sentiment/">Large Movie Review Dataset</a>. 
 
+## How to run
+
+<a href="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/blob/master/read_data.ipynb">Process data function</a> is used to read in, process, and save processed data in <a href="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/tree/master/processed_data">Processed data folder</a>
+
+<a href="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/blob/master/LSTM.ipynb">LSTM notebook</a>
+
+<a href="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/blob/master/BERT.ipynb">BERT notebook</a>
+
+<a href="https://github.com/huongdo108/sentiment-analysis-LSTM-BERT-XLNet/blob/master/XLNet.ipynb">XLNet notebook</a>
 
 ## LSTM 
 
