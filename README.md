@@ -1,6 +1,10 @@
 # Sentiment Analysis with Bidirectional LSTM, BERT, and XLNet
 
+## Overview
 
+In this project, I implemented sentiment analysis on Movie Review Dataset by using three different deep learning architectures: Bidirectional LSTM, transfer learning with BERT and XLNet.
+
+Data can be download from <a href="https://ai.stanford.edu/~amaas/data/sentiment/">Large Movie Review Dataset</a>
 
 
 ## LSTM 
