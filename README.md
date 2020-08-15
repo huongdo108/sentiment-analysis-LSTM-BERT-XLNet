@@ -22,7 +22,9 @@ Data can be download from <a href="https://ai.stanford.edu/~amaas/data/sentiment
 
 Long Short-Term memory (LSTM) is an artificial recurrent neural network (RNN) architecture. 
 
-### Limitation of previous models (vanilla RNN)
+### Limitation of previous models (vanilla RNN) and Naive Bayes 
+
+Naive Bayes makes strong assumption of the independence of words in a sentence so it does not capture the semantic relationships between words in a sentence.
 
 In RNN, information travels through time in which the information produced at the previous time point is used as input information for the next time point. Vanilla RNN fails to address the problem of long-term dependencies as it is unable to learn to connect the information when the gap between the relevant information and the place where it is needed is big. This problem is called Vanishing Gradient. 
 
